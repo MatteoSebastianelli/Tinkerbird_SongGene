@@ -5,8 +5,16 @@ A diversity of sounds pervades the natural world, and differences in acoustic tr
 
 This repository contains all the scripts relative to tinkerbird SongGene project. Data can be made available upon request.
 
-In this repository you find:
+In this repository you find script for:
 
-1)
-2)
-...
+1) Bioinformatic pipeline (Whole-genome variant calling & ddRAD)
+
+2) ADMIXTURE & fastSTRUCURE
+
+3) GEMMA, permutation test, BSLMM and BLAST
+
+4) ELAI
+
+5) Statistical phasing and xpEHH
+
+6) brms IOI stability models 
