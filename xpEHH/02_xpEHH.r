@@ -1,6 +1,6 @@
 ##########################################################
 
-# Compute 
+# Compute xpEHH
 # This script follows Mark Ravinet's speciation genomics tutorial (https://speciationgenomics.github.io/haplotypes/)
 
 ##########################################################
