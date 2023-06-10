@@ -11,7 +11,7 @@ In this repository you find script for:
 
 2) ADMIXTURE & fastSTRUCURE
 
-3) GEMMA, permutation test, BSLMM and BLAST
+3) GEMMA
 
 4) ELAI
 
