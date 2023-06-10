@@ -3,6 +3,8 @@
 # running PLINK on the populations output to get .geno.txt
 # ad .pos.txt PLINK files
 
+#tinkerbirds138_ELAI_ready = from vcf with miss = 0.95, maf = 0.03, minDP = 3.5 AND maxDP = 50
+
 ##########################################################
 ## make a "keep.txt" file for each reference population and for the individuals you will estimate ancestry for
 ## make sure you use the right flag if your system has more chr than humans
