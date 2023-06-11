@@ -9,14 +9,12 @@ In this repository you find script for:
 
 1) Bioinformatic pipeline (Whole-genome variant calling & ddRAD)
 
-2) ADMIXTURE & fastSTRUCURE
+2) GEMMA
 
-3) GEMMA
+3) ELAI
 
-4) ELAI
+4) Statistical phasing and xpEHH
 
-5) Statistical phasing and xpEHH
-
-6) brms IOI stability models 
+5) brms IOI stability models 
 
 
