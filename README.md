@@ -9,7 +9,7 @@ In this repository you find script for:
 
 1) Bioinformatic pipeline (Whole-genome variant calling & ddRAD)
 
-2) GEMMA
+2) GEMMA (Association, permutation test and BSLMM) and BLAST
 
 3) ELAI
 
