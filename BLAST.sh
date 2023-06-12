@@ -1,13 +1,13 @@
 #This script contains the commands used to BLAST the tinkerbird reference genome against the zebra finch reference genome.
 
-#1. shorten the NCBI headers from the two genomes
+#1. shorten the reference genome NCBI headers
 sed '/^>/ s/ .*//' GCA_015220805.1_bPogPus1.pri_genomic.fna > GCA_015220805.1_bPogPus1.pri_genomic_renamed.fna #tinkerbird
 sed '/^>/ s/ .*//' GCF_003957565.2_bTaeGut1.4.pri_genomic.fna > GCF_003957565.2_bTaeGut1.4.pri_genomic_renamed.fna #zebra finch
 
 #2. generate the zebra finch database for BLAST
 makeblastdb -in GCF_003957565.2_bTaeGut1.4.pri_genomic_renamed.fna -parse_seqids -dbtype nucl -out zebrafinch_db -logfile zebrafinch_makeblastdb.log
  
-#3. extract the fasta sequences of the tinkerbird genome containing the significan GEMMA SNPs
+#3. extract the tinkerbird fasta sequences containing the significant GEMMA SNPs
 
 #first_snps.bed
 #chr25	5000000	12000000
