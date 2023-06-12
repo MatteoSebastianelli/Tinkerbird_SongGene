@@ -7,7 +7,7 @@ This repository contains all the scripts relative to tinkerbird SongGene project
 
 In this repository you find script for:
 
-1) Bioinformatic pipeline (Whole-genome variant calling & ddRAD)
+1) SNP calling pipeline (Whole-genome variant calling & ddRAD)
 
 2) GEMMA (Association, permutation test and BSLMM) and BLAST
 
