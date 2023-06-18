@@ -2,7 +2,7 @@
 
 # Permutation test
 
-#tinkerbirds_merged_SNPs_biallelic_max-miss0.95_maf0.03_minmaxDP3.5_50:
+#tinkerbirds_ioigwas_SNPs_biallelic_max-miss0.95_maf0.03_minmaxDP3.5_50:
 #miss = 0.95, 
 #maf = 0.03, 
 #minDP = 3.5
@@ -20,10 +20,10 @@ do
 
 #For every loop, shuffle the phenotypes and merge them with the nopheno.txt file. Make sure to rename the resulting .fam file
 # as the .bed and .bim file for the association test
-shuf tinkerbids_pheno.txt | paste nopheno.fam - > tinkerbirds_merged_SNPs_biallelic_max-miss0.95_maf0.03_minmaxDP3.5_50.fam
+shuf tinkerbids_pheno.txt | paste nopheno.fam - > tinkerbirds_ioigwas_SNPs_biallelic_max-miss0.95_maf0.03_minmaxDP3.5_50.fam
 
 #Run gemma linear mixed model
-gemma-0.98.5-linux-static-AMD64 -bfile tinkerbirds_merged_SNPs_biallelic_max-miss0.95_maf0.03_minmaxDP3.5_50 -k gemma_relatedness_ioi_Symp.cXX.txt -lmm 4 -o "$i"gemma_ioi_Symp_max-miss0.95_maf0.03_minmaxDP3.5_50
+gemma-0.98.5-linux-static-AMD64 -bfile tinkerbirds_ioigwas_SNPs_biallelic_max-miss0.95_maf0.03_minmaxDP3.5_50 -k gemma_relatedness_ioi_Symp.cXX.txt -lmm 4 -o "$i"gemma_ioi_Symp_max-miss0.95_maf0.03_minmaxDP3.5_50
 
 #Record summary output
 cd output
